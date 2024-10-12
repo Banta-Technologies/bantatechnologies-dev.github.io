@@ -8,7 +8,7 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "http://localhost:4321/",
+  site: "https://banta-technologies.github.io/bantatechnologies-dev.github.io/",
   // todo - add site for sitemap
   build: {
     format: "directory",
