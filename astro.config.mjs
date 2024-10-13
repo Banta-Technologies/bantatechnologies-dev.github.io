@@ -7,16 +7,13 @@ import { DEFAULT_LOCALE, LOCALES } from "./src/i18n/utils";
 import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
-//export default defineConfig({
-//  site: "https://banta-technologies.github.io/bantatechnologies-dev.github.io/",
-  // todo - add site for sitemap
- // build: {
- //   format: "directory",
- // },
 export default defineConfig({
-  output: 'static',
-  outDir: 'docs',
-});
+ site: "https://banta-technologies.github.io/bantatechnologies-dev.github.io/",
+  // todo - add site for sitemap
+  build: {
+    format: "directory",
+  },
+
   integrations: [
     tailwind(),
     sitemap({
