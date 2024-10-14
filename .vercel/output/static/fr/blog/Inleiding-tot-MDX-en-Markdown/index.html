@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="fr"> <head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.3"><link rel="sitemap" href="/sitemap-index.xml"><!-- Font preloads --><link rel="preload" href="/fonts/Raleway.ttf" as="font" type="font/ttf" crossorigin="anonymous"><link rel="preload" href="/fonts/Raleway-Italic.ttf" as="font" type="font/ttf" crossorigin="anonymous"><link rel="preload" href="/fonts/OpenSans.ttf" as="font" type="font/ttf" crossorigin="anonymous"><link rel="preload" href="/fonts/OpenSans-Italic.ttf" as="font" type="font/ttf" crossorigin="anonymous"><!-- Canonical URL --><link rel="canonical" href="https://banta-technologies.github.io/nl/blog/Inleiding-tot-MDX-en-Markdown/"><!-- Alternate URLs --><link rel="alternate" href="https://banta-technologies.github.io/en/blog/Inleiding-tot-MDX-en-Markdown/" hreflang="en"><link rel="alternate" href="https://banta-technologies.github.io/nl/blog/Inleiding-tot-MDX-en-Markdown/" hreflang="nl"><link rel="alternate" href="https://banta-technologies.github.io/fr/blog/Inleiding-tot-MDX-en-Markdown/" hreflang="fr"><!-- Primary Meta Tags --><title>Blog - Inleiding tot MDX en Markdown</title><meta name="title" content="Blog - Inleiding tot MDX en Markdown"><meta name="description"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://banta-technologies.github.io/fr/blog/Inleiding-tot-MDX-en-Markdown/"><meta property="og:title" content="Blog - Inleiding tot MDX en Markdown"><meta property="og:description"><meta property="og:image" content="https://banta-technologies.github.io/favicon.svg"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://banta-technologies.github.io/fr/blog/Inleiding-tot-MDX-en-Markdown/"><meta property="twitter:title" content="Blog - Inleiding tot MDX en Markdown"><meta property="twitter:description"><meta property="twitter:image" content="https://banta-technologies.github.io/favicon.svg"><link rel="stylesheet" href="/_astro/_slug_.DlFBz8N0.css">
+<link rel="stylesheet" href="/_astro/_slug_.CabMAATN.css"><script type="module" src="/_astro/page.BUL2e3rS.js"></script></head> <header> <nav class="container my-4 relative bg-white z-[100]" x-data="{ expanded: false }"> <ul class="flex items-center justify-center gap-4 w-full z-10"> <li class="mr-auto"> <a data-astro-prefetch href="/fr/" class="flex gap-1 font-semibold"><img src="/favicon.svg" alt="spark logo" width="20" height="20">Spark</a> </li> <li class="hidden md:block"> <a data-astro-prefetch class="link" href="/fr/blog/">blog</a> </li> <li class="hidden md:block"> <a data-astro-prefetch class="link" href="/fr/components/">Composants</a> </li> <li class="hidden md:block"> <a data-astro-prefetch class="link" href="/fr/faq/">faq</a> </li> <li class="hidden md:block"> <a data-astro-prefetch class="link" href="/fr/contact/">contact</a> </li> <li class="flex md:hidden"> <button title="menu" type="button" class="w-8 my-auto" @click="expanded = !expanded"> <svg class="hb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" stroke="#000" stroke-width=".6" fill="rgba(0,0,0,0)" stroke-linecap="round" style="cursor: pointer"> <path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7"> <animate dur="0.2s" attributeName="d" values="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7;M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7" fill="freeze" begin="start.begin"></animate> <animate dur="0.2s" attributeName="d" values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7" fill="freeze" begin="reverse.begin"></animate> </path> <rect width="10" height="10" stroke="none"> <animate dur="2s" id="reverse" attributeName="width" begin="click"></animate> </rect> <rect width="10" height="10" stroke="none"> <animate dur="0.001s" id="start" attributeName="width" values="10;0" fill="freeze" begin="click"></animate> <animate dur="0.001s" attributeName="width" values="0;10" fill="freeze" begin="reverse.begin"></animate> </rect> </svg> </button> </li> </ul> <ul x-show="expanded" x-cloak x-collapse class="transition-all flex flex-col justify-center items-center gap-2 pt-2 pb-4 drop-shadow-md bg-white absolute -left-4 -right-4 md:hidden"> <li class="flex w-full"> <a data-astro-prefetch class="link py-2 mx-auto w-full text-center" href="/fr/blog/">blog</a> </li> <li class="flex w-full"> <a data-astro-prefetch class="link py-2 mx-auto w-full text-center" href="/fr/components/">Composants</a> </li> <li class="flex w-full"> <a data-astro-prefetch class="link py-2 mx-auto w-full text-center" href="/fr/faq/">faq</a> </li> <li class="flex w-full"> <a data-astro-prefetch class="link py-2 mx-auto w-full text-center" href="/fr/contact/">contact</a> </li> </ul> </nav> </header>  <main class="container mx-auto blog-container"> <h1 id="inleiding-tot-mdx-en-markdown">Inleiding tot MDX en Markdown</h1>
+<p>Als je nieuw bent in webontwikkeling of contentcreatie, ben je misschien twee termen tegengekomen: <strong>Markdown</strong> en <strong>MDX</strong>. In deze post leggen we de basis van beide uit en laten we zien hoe je aan de slag kunt.</p>
+<h2 id="wat-is-markdown">Wat is Markdown?</h2>
+<p>Markdown is een lichtgewicht opmaaktaal waarmee je tekst kunt opmaken met de syntaxis van platte tekst. Het wordt veel gebruikt voor het schrijven van documentatie, blog posts en README bestanden.</p>
+<p>Hier is een voorbeeld van Markdown syntaxis:</p>
+<ul>
+<li><strong>Bold text</strong>: <code>**Bold**</code></li>
+<li><em>Italic text</em>: <code>*Italic*</code></li>
+<li><a href="https://example.com">Links</a>: <code>[Link text](https://example.com)</code></li>
+<li>Headings:
+<ul>
+<li><code># Heading 1</code></li>
+<li><code>## Heading 2</code></li>
+<li><code>### Heading 3</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="voorbeeld">Voorbeeld</h3>
+<p>Hier is een voorbeeld van een Markdown fragment:</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8;overflow-x:auto" tabindex="0" data-language="plaintext"><code><span class="line"><span># Mijn eerste blogpost</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Welkom op mijn blog! Dit is een voorbeeld van een Markdown-bestand. Hieronder staat een lijst:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>- Item 1</span></span>
+<span class="line"><span>- Item 2</span></span>
+<span class="line"><span>- Item 3</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span></span></span></code></pre>
+<p>Bij het renderen ziet dit er als volgt uit:</p>
+<h1 id="mijn-eerste-blogpost">Mijn eerste blogpost</h1>
+<p>Welkom op mijn blog! Dit is een voorbeeld van een Markdown-bestand. Hieronder staat een lijst:</p>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+<h2 id="wat-is-mdx">Wat is MDX?</h2>
+<p>MDX is een uitbreiding van Markdown waarmee je JSX (JavaScript XML) rechtstreeks in je Markdown-bestanden kunt invoegen. Dit maakt het mogelijk om standaard Markdown-inhoud te mengen met dynamische componenten, waardoor het een krachtig hulpmiddel is voor moderne webontwikkeling.</p>
+<p>Als je echter net begint, kun je MDX net als Markdown gebruiken zonder JSX-componenten. Het werkt prima met de basis.</p>
+<h3 id="voorbeeld-1">Voorbeeld</h3>
+<p>Zo ziet een eenvoudig MDX-bestand eruit (zonder aangepaste componenten):</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8;overflow-x:auto" tabindex="0" data-language="mdx"><code><span class="line"><span style="color:#79B8FF;font-weight:bold">---</span></span>
+<span class="line"><span style="color:#E1E4E8">title: &quot;Mijn MDX post&quot;</span></span>
+<span class="line"><span style="color:#79B8FF;font-weight:bold">---</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#79B8FF;font-weight:bold"># Hello World</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">Dit is een voorbeeld van een MDX-post. Het gedraagt zich net als Markdown, maar ik kan later componenten toevoegen als dat nodig is.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">Waarom MDX gebruiken?</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">Het belangrijkste voordeel van MDX is dat het je de flexibiliteit geeft om eenvoudige inhoud te schrijven met Markdown, maar later dynamische inhoud mogelijk maakt. Het wordt vaak gebruikt in statische site generators zoals Astro, Next.js en Gatsby.</span></span>
+<span class="line"><span style="color:#E1E4E8">Aan de slag</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">Om een MDX basispost te maken, hoef je alleen maar</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">    Een .mdx bestand aanmaken.</span></span>
+<span class="line"><span style="color:#E1E4E8">    Markdown inhoud schrijven zoals gewoonlijk.</span></span>
+<span class="line"><span style="color:#E1E4E8">    Eventueel kun je later JSX componenten toevoegen als je vertrouwd bent met de basis.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">Dat is alles wat je nodig hebt om aan de slag te gaan met MDX en Markdown. In toekomstige posts zullen we dieper ingaan op hoe je MDX kunt gebruiken om dynamische en interactieve blog posts te maken.</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#E1E4E8">Blijf kijken voor meer tips en tutorials!</span></span>
+<span class="line"></span></code></pre>
+<h3 id="belangrijkste-elementen">Belangrijkste elementen:</h3>
+<ul>
+<li>
+<p><strong>Basis Markdown-functies</strong> zoals koppen, vet, cursief, lijsten en links.</p>
+</li>
+<li>
+<p><strong>MDX frontmatter</strong> (<code>--</code>) voor metadata (titel, beschrijving, enz.).</p>
+</li>
+<li>
+<p>Geen aangepaste componenten of JSX, zodat compatibiliteit met verschillende MDX-parsers gegarandeerd is.</p>
+</li>
+</ul>
+<p>Deze post behandelt de basis en werkt probleemloos zonder aangepaste componenten of geavanceerde functies. Je kunt het gebruiken als basis voor het leren of delen van MDX en Markdown tips.</p> </main>  <footer class="bg-gray py-4"> <div class="container"> <div class="flex justify-between items-center"> <a data-astro-prefetch href="/fr/" class="flex gap-1 font-semibold text-white"><img src="/favicon.svg" alt="spark logo" width="20" height="20" loading="eager">Spark</a> <ul class="flex gap-1 w-min"> <li class="flex items-center text-white hover:fancy"> <a class="p-2 text-sm" href="/en/blog/Inleiding-tot-MDX-en-Markdown/"> en </a> </li><li class="flex items-center text-white hover:fancy"> <a class="p-2 text-sm" href="/nl/blog/Inleiding-tot-MDX-en-Markdown/"> nl </a> </li><li class="flex items-center text-white hover:fancy"> <span class="fancy p-2 font-semibold text-sm">fr</span> </li> </ul> </div> <small class="text-white">
+&copy; Spark Theme. Tous droits réservés. Ce projet est indépendant d&#39;Astro ou de Tailwind Labs et n&#39;est ni approuvé ni sponsorisé par eux. Créé par <b><a href="https://www.rubenwinant.be" target="_blank" class="link">Ruben Winant</a></b> avec Astro et Tailwind depuis le magnifique Bierbeek, en Belgique </small> </div> </footer>  </html>

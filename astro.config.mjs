@@ -5,6 +5,7 @@ import mdx from "@astrojs/mdx";
 import alpinejs from "@astrojs/alpinejs";
 import { DEFAULT_LOCALE, LOCALES } from "./src/i18n/utils";
 import vercel from "@astrojs/vercel/serverless";
+import awsAmplify from 'astro-aws-amplify';
 
 // https://astro.build/config
 export default defineConfig({
@@ -26,6 +27,7 @@ export default defineConfig({
     alpinejs({ entrypoint: "/src/entrypoint" }),
   ],
   prefetch: true,
+  adapter: awsAmplify(),
   output: "server",
   adapter: vercel(),
 });
